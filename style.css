@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: rgb(73, 109, 170);
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background-color: rgb(243, 235, 235);
+    font-size: 3rem;
+    border: 1px solid;
+}
+
+.butt{
+    display: grid;
+    grid-template-columns: repeat(7, 9rem);
+    height: 15rem;
+    width: 63rem;
+    margin-left: 9rem;
+    margin-top: 5px;
+}
+
+.butt button {
+     height: 3rem; 
+    margin: 3px;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.butt button:active {
+    border: 1px solid;
+    box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, .1);
+}
+
+.butt .op{
+    background-color:#dadce0;
+    color: black;
+}
+
+.butt .inv{
+    background-color:#8f929a;
+    color: black;
+}
+
+.butt .eql{
+    background-color: rgb(26, 178, 26);
+}
+
+.butt .dlt-btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.butt .dlt-btns button {
+    background-color: rgb(255, 92, 92);
+    padding: 0 1.3rem;
+}
+
+.display {
+    background-color: white;
+    height: 5rem;
+    width: 63rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    border-color: rgb(205, 202, 202);
+    margin-top: 2rem;
+    margin-left: 9rem;
+    text-align: right;
+}
+
+.display .exp {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
