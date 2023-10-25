@@ -20,6 +20,7 @@ body {
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
+    width: full;
     text-align: center;
     height: 5rem;
     background-color: rgb(136, 236, 219); /* Light pink background */
