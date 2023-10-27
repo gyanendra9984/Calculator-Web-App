@@ -6,7 +6,7 @@ A basic calculator web application built using HTML, CSS, and JavaScript.
 
 ## Demo
 
-You can see a live demo of the calculator app here: [Calculator Web App Demo](#)
+You can see a live demo of the calculator app here: [https://gyanendra-calculator.vercel.app/]
 
 ## Features
 
@@ -14,8 +14,4 @@ You can see a live demo of the calculator app here: [Calculator Web App Demo](#)
 - Clear and reset functionality.
 - Responsive design for various screen sizes.
 - User-friendly and intuitive interface.
-
-### Prerequisites
-
-You need a web browser to run this web app.
 
