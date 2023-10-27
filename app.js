@@ -1,6 +1,6 @@
 let ans = 0;
 const notToDisplay = ['eql', 'inv', 'bkspc-btn', 'clear-btn']
-const map = { 'E': '*10**', '÷': '/', '×': '*', 'sin(': 'Math.sin(', 'cos(': 'Math.cos', 'tan(': 'Math.tan', 'π': 'Math.PI', '^': '**', 'sin<sup>-1</sup>': 'Math.asin', 'cos<sup>-1</sup>': 'Math.acos', 'tan<sup>-1</sup>': 'Math.atan', 'e': 'Math.E', '√': 'Math.sqrt', 'log': 'Math.log10', 'ln': 'Math.log', 'Ans': 'ans' }
+const map = { 'E': '*10**', '÷': '/', '×': '*', 'sin(': 'Math.sin(', 'cos(': 'Math.cos(', 'tan(': 'Math.tan(', 'π': 'Math.PI', '^': '**', 'sin<sup>-1</sup>': 'Math.asin', 'cos<sup>-1</sup>': 'Math.acos', 'tan<sup>-1</sup>': 'Math.atan', 'e': 'Math.E', '√': 'Math.sqrt', 'log': 'Math.log10', 'ln': 'Math.log', 'Ans': 'ans' }
 const inverse = { 'sin': 'sin<sup>-1</sup>', 'cos': 'cos<sup>-1</sup>', 'tan': 'tan<sup>-1</sup>', 'ln': 'e<sup>x</sup>', 'log': '10<sup>x</sup>', '√': 'x<sup>2</sup>', 'x<sup>y</sup>': '<sup>y</sup>√x', 'Ans': 'Rnd' }
 const changeVal = { 'x!': '!', '<sup>n</sup>C<sub>r</sub>': 'C', '<sup>n</sup>P<sub>r</sub>': 'P', 'x<sup>y</sup>': '^', 'ln': 'ln(', 'log': 'log(', 'sin': 'sin(', 'cos': 'cos(', 'tan': 'tan(', 'sin<sup>-1</sup>': 'sin<sup>-1</sup>(', 'cos<sup>-1</sup>': 'cos<sup>-1</sup>(', 'tan<sup>-1</sup>': 'tan<sup>-1</sup>(', 'e<sup>x</sup>': 'e^', 'x<sup>y</sup>': '^', 'x<sup>2</sup>': '^2', '10<sup>x</sup>': '10^', '√': '√(', 'EXP': 'E', '<sup>y</sup>√x': '√' }
 

@@ -17,7 +17,7 @@ body {
 .head {
     font-family: 'Kanit', sans-serif;
     font-weight: bolder;
-    width: fullrem;
+    width: full;
     text-align: center;
     height: 5rem;
     background-color: rgb(136, 236, 219); /* Light pink background */
