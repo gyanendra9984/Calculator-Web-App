@@ -17,10 +17,7 @@ body {
 .head {
     font-family: 'Kanit', sans-serif;
     font-weight: bolder;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    width: full;
+    width: fullrem;
     text-align: center;
     height: 5rem;
     background-color: rgb(136, 236, 219); /* Light pink background */
@@ -28,14 +25,14 @@ body {
     font-size: 3rem;
     border: 1px solid;
     border-color: #cdcaca; /* Lighter border color */
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
     text-shadow: 3px 3px #FF0000; 
 
 }
 
 .butt {
     display: grid;
-    grid-template-columns: repeat(7, 9rem);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     height: 15rem;
     width: 63rem;
     margin-left: 2rem;
@@ -43,7 +40,7 @@ body {
 }
 
 .butt button {
-    height: 3rem;
+    /* height: 3rem; */
     margin: 4px;
     border: none;
     border-radius: .5rem;
@@ -115,81 +112,132 @@ body {
     }
     .head{
         font-size: 2.2rem;
+        text-shadow: 1.5px 1.5px #FF0000;
+        padding-top: 1rem; 
     }
     .container{
-        width: 55rem;
+        width: 40rem;
+        height:60rem;
+    }
+    .display{
+        width: 37rem;
+        margin-left: .4rem;
     }
     .butt {
-        grid-template-columns: repeat(4, 9rem);
-        /* height: 15rem;
-        width: 63rem;
-        margin-left: 2rem;
-        margin-top: 10px; */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:repeat(10,1fr);
+        width:38rem;
+        height: 52rem;
+        margin-left: 1.4rem;
+        
     }
-   
+    .butt button{
+        font-size: 1.5rem;
+    }
+    
+    .num7{
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .num8{
+        grid-column: 2;
+        grid-row: 5;
+    }
+    .num9{
+        grid-column: 3;
+        grid-row: 5;
+    }
+    .num1{
+        grid-column: 1;
+        grid-row: 7;
+    }
+    .num2{
+        grid-column: 2;
+        grid-row: 7;
+    }
+    .num3{
+        grid-column: 3;
+        grid-row: 7;
+    }
+    .num4{
+        grid-column: 1;
+        grid-row: 6;
+    }
+    .num5{
+        grid-column: 2;
+        grid-row: 6;
+    }
+    .num6{
+        grid-column: 3;
+        grid-row: 6;
+    }
+    .numdot{
+         grid-column: 1;
+        grid-row: 8; 
+    }
+    .butt .ele1{
+       grid-column: 2;
+       grid-row: 8; 
+       background-color:white;
+   }
+   .butt .ele2{
+     grid-column: 3;
+     grid-row: 8;
+     background-color: white; 
 }
-/* 
-@media(max-width:1005px) {
-    html {
-        font-size: 55%;
-    }
-
-    .header {
-        padding: 2rem
-    }
-
-    section {
-        padding: 2rem;
-    }
+.ele3{
+    grid-column: 4;
+    grid-row: 8; 
 }
-
-@media(max-width:885px) {
-    html {
-        font-size: 48%;
-    }
-
-    .header {
-        padding: 2rem
-    }
+.ele4{
+    grid-column: 4;
+    grid-row: 7; 
 }
-
-@media(max-width:770px) {
-    #menu-btn {
-        display: inline-block;
-    }
-
-    .header .navbar {
-        position: absolute;
-        top: 110%;
-        right: -110%;
-        width: 20rem;
-        box-shadow: var(--box-shadow);
-        border-radius: .5rem;
-        background: #fff;
-    }
-
-    .header .navbar a {
-        font-size: 2rem;
-        margin: 2rem;
-        display: block;
-    }
+.ele5{
+    grid-column: 4;
+    grid-row: 6; 
 }
-
-@media(max-width:450px) {
-    .header .search-form {
-        width: 90%;
-    }
-
-    html {
-        font-size: 38%;
-    }
-
-    .heading {
-        font-size: 2.5rem;
-    }
-
-    .footer {
-        text-align: center;
-        font-size: 2rem;
-    }
-} */
+.ele6{
+    grid-column: 4;
+    grid-row: 5; 
+}
+.ele7{
+    grid-column: 4;
+    grid-row: 4; 
+}
+.ele8{
+    grid-column: 1;
+    grid-row: 3; 
+}
+.ele9{
+    grid-column: 1;
+    grid-row: 4; 
+}
+.ele10{
+    grid-column:2;
+    grid-row: 4; 
+}
+.ele11{
+    grid-column: 3;
+    grid-row: 4; 
+}
+.inv{
+    grid-column: 1;
+    grid-row: 2; 
+}
+.ele13{
+    grid-column: 2;
+    grid-row: 3; 
+}
+.ele14{
+    grid-column: 3;
+    grid-row: 3; 
+}
+.butt .dlt-btns{
+    grid-column:3/span 2;
+    grid-row: 9; 
+}
+.butt .dlt-btns button{
+    width: 9rem;
+}
+} 
