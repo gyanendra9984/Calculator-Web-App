@@ -13,6 +13,7 @@ function fat(n) {
         return n * fat(n - 1);
     }
 }
+
 var operation = ['+', '-', '÷', '×', 'P', 'C', '^', '%', '!', '√', 'E','^2'];
 var func = ['ln(', 'log(', 'sin(', 'cos(', 'tan(', 'sin<sup>-1</sup>(', 'cos<sup>-1</sup>', 'tan<sup>-1</sup>(', 'e^', '10^', '√('];
 
@@ -45,13 +46,16 @@ for (let i = 0; i < buttons.length; i++) {
                 } else {
                     display.innerHTML += x;
                 }
+
             }
         })
     }
 }
 
 let exp = document.getElementsByClassName('exp')[0]
+
 let eql = document.getElementsByClassName('eql')[0]
+
 eql.addEventListener('click', () => {
     let x = exp.innerHTML.trim();
 

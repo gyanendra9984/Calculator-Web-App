@@ -11,7 +11,7 @@ body {
     border: 2px solid #261919;
     border-radius: 10px;
     box-shadow: 0 50px 50px rgba(28, 24, 24, 0.1);
-    background-color: #2567a9; /* Darker blue background */
+    background-color: #2567a9; 
 }
 
 .head {
@@ -21,11 +21,11 @@ body {
     text-align: center;
     height: 5rem;
     background-color: rgb(136, 236, 219); /* Light pink background */
-    color: #2e549f; /* Suggested blue color */
+    color: #2e549f; 
     font-size: 3rem;
     border: 1px solid;
     border-color: #cdcaca; /* Lighter border color */
-    text-shadow: 3px 3px #FF0000; 
+    text-shadow: 3px 3px #ff0000; 
 
 }
 
